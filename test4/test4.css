@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 10% 2fr;
+    height: 100vh;
+    background-color: #4b5e08; 
+    background-image: url('https://cdn.discordapp.com/attachments/1327986123812634655/1328140094086975618/intro-our_matcha.jpg?ex=67859e5a&is=67844cda&hm=bf112ef9fd21b7e438434c57d506dec3124de30470ed3fd6db3a5bc3f2f7e6b2&');
+    background-repeat: no-repeat;
+}
+
+.bar {
+    background-color: #ffffff;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.papa{
+    margin-left: -118px;
+}
+.bar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bar nav ul li {
+    margin: 80px 0;
+}
+
+.bar nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+}
+
+.bar nav ul li a:hover {
+    color: #ffffff;
+}
+
+main {
+    overflow-y: auto;
+
+    
+}
+.imo{
+    margin-top: 20px;
+}
+.header2 {
+    margin-top: -1px;
+    margin-bottom: -1px;
+    text-align: center;
+    background-color: #fad89370;
+    opacity: 90%;
+    grid-column: 1 / 3;
+    height: 150px;
+}
+header {
+    margin-bottom: 25px;              
+    background-color: rgb(255, 255, 255);  
+    width: 70px;              
+    height: 100%;                
+    display: flex;               
+    flex-direction:column;
+    border:1px solid #000000;  
+}
+.b{color: #000000;}
+a{text-decoration: none;}
+.a{
+    display: flex;
+    gap: 70px;
+    margin-top: 680px;                            
+    transform: rotate(-90deg);
+}
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero {
+    
+    background-size: 100% ;
+    background-repeat: no-repeat ;
+    background-position: center ;
+    
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+.content P{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero h2 {
+   color: #caeeb5;
+   padding: 10px 20px; 
+   
+   
+    
+}
+.story{
+    font-size: 80px;
+   text-shadow: 
+   2px 2px 0px black,
+   -2px -2px 0px black,
+   2px -2px 0px black,
+  -2px -2px 0px black;
+
+}
+
+.content {
+    padding: 14px;
+    max-width: 8500px;
+    margin: auto;
+}
+
+.history-section {display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 30px 30px;
+    box-shadow: 0 5PX 7px;
+    background-color: rgba(253, 255, 255, 0.87);
+    border-radius: 20px;
+    
+   
+    
+}
+
+.history-section img {
+    width: 50%;
+    border-radius: 20px;
+}
+
+.history-text {
+    text-align: left;
+    width: 50%;
+    font-size: 21px;
+    
+    
+    
+    
+}
+
+.new-section {
+display: flex;
+flex-direction: row; 
+align-items: center;
+justify-content: space-between;
+gap: 20px;
+margin: 30px 30px;
+box-shadow: 0 5PX 7px;
+background-color: hsla(0, 0%, 100%, 0.87);
+border-radius: 20px ;
+
+}
+
+.new-section p {
+text-align: left;
+max-width: 200%; 
+margin: 35px;
+font-size: 20px;
+}
+
+.new-section img {
+width: 50%; 
+border-radius: 20px;
+
+}
+
+.extra-section {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 30px 30px;
+    box-shadow: 0 5PX 7px;
+    background-color: rgba(253, 255, 255, 0.87);
+    border-radius: 20px;
+}
+
+.extra-section p {
+    text-align: left;
+    max-width: 200%;
+    margin: 35px;
+    font-size: 20px;
+}
+
+.extra-section img {
+    width: 50%;
+    border-radius: 20px;
+   
+}
+.titre{
+    margin-left: 520px;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-bottom: 10px;
+
+}
+.Rachid{
+    color: #000000;
+    margin-top: 5px;
+    margin-right:10px;}
+.profil{
+    display: flex;
+    justify-self: flex-end;
+    justify-content: space-between;
+    background-color: rgb(209, 209, 209);  
+    width: 110px;
+    height: 30px;
+    color: #000000;
+    border-radius: 15px;
+    border:1px solid #000000;
+    margin-left: 380px;
+    margin-top: -100px;
+}
+.logo{
+    margin-top: 5px;
+    margin-left:5px;
+    width: 20px;
+    height: 20px;
+}
