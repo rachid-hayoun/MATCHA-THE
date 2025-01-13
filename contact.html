@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous - Matcha Tea</title>
+    <link rel="stylesheet" href="css/matcha1.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="vente.html">Vente</a>
+            <a href="apropos.html">À propos</a>
+            <a href="histoire.html">Histoire</a>
+            <a href="contact.html">Contact</a>
+            <a href="profil.html">Compte client</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-form-container">
+            <h1>Contactez-nous</h1>
+            <p>Veuillez remplir le formulaire ci-dessous pour nous contacter.</p>
+
+            <form action="reçus.html" method="POST" class="contact-form">
+                <label for="civilite">Civilité</label>
+                <select id="civilite" name="civilite" required>
+                    <option value="" disabled selected>Sélectionnez une civilité</option>
+                    <option value="mr">Monsieur</option>
+                    <option value="mme">Madame</option>
+                    <option value="iel">Autre</option>
+                </select>
+
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" required placeholder="Votre nom">
+
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="prenom" required placeholder="Votre prénom">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Votre email">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Votre message"></textarea>
+
+                <button type="submit" class="submit-btn">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Matcha Tea</p>
+    </footer>
+</body>
+</html>
